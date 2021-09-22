@@ -1,0 +1,28 @@
+packagecom.example.lab04;
+publicclassUser{
+    privateLongid;
+    privateStringname;
+    privateStringemail;
+    publicLonggetId(){
+        returnid;
+    }
+    publicvoidsetId(Longid){
+        this.id=id;
+    }publicStringgetName(){
+        returnname;
+    }
+    publicvoidsetName(Stringname){
+        this.name=name;
+    }
+    publicStringgetEmail(){
+        returnemail;
+    }
+    publicvoidsetEmail(Stringemail){
+        this.email=email;
+    }
+    @Override
+    publicStringtoString(){
+        return"User[id="+id+",name="+name+",email="+email+",
+    toString()="+super.toString()+"]";
+}
+}
